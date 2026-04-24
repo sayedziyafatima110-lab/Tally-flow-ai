@@ -13,6 +13,13 @@
     "react-dom": "latest",
     "@clerk/nextjs": "latest",
     "lucide-react": "latest",
-    "@google/generative-ai": "latest"
+    "@google/generative-ai": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }
