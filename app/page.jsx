@@ -1,20 +1,8 @@
-"use client";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-
 export default function Page() {
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
-      <h1>TallyFlow AI</h1>
-      <SignedOut>
-        <SignInButton mode="modal" />
-        <p>Please sign in to continue</p>
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-        <p>Welcome! You are logged in.</p>
-      </SignedIn>
+    <div style={{ padding: "50px", textAlign: "center", fontFamily: "sans-serif" }}>
+      <h1 style={{ color: "blue" }}>TallyFlow AI Live Ho Gaya!</h1>
+      <p>Bhai, ab error nahi aayega. Ye simple page hai.</p>
     </div>
   );
 }
-
-        
